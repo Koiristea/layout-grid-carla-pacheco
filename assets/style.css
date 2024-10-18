@@ -84,7 +84,7 @@ main {
     }
     & h2 {
         height: 30px;
-        font-size: 30px;
+        font-size: 25px;
         margin-top: 10px;
         display: flex;
         justify-content: center;
@@ -96,8 +96,7 @@ main {
     & button {
         width: 40%;
         height: 40px;
-        margin: auto;
-        margin-bottom: 25px;
+        margin: 20px auto;
         font-size: 17px;
     }
 }
