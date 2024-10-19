@@ -65,11 +65,23 @@ main {
     grid-template-columns: 1.3fr 1.4fr 1.3fr;
     grid-template-rows: 1.2fr 1.2fr;
     gap: 0px 0px;
-    padding: 40px 120px;
+    padding: 40px 4%;
+}
+
+@media screen and (max-width: 1219px) {
+    main {
+        grid-template-columns: 1.3fr 1.4fr;
+    }
+}
+
+@media screen and (max-width : 9012px) {
+    .products h2 {
+        margin-bottom: 20px;
+    }
 }
 
 .products {
-    margin: 30px;
+    margin: 2%;
     background-color: aliceblue;
     border-radius: 50px;
     display: flex;
@@ -77,7 +89,7 @@ main {
     text-align: center;
     & img {
         width: 70%;
-        height: 60%;
+        height: 50%;
         display: flex;
         margin: 30px auto 0 auto;
         border-radius: 50px;
